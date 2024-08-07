@@ -1,12 +1,12 @@
 {
-  "name": "react-boiler-plate-ts",
+  "name": "react-boiler-plate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prettier:check": "prettier --check .",
     "prettier:write": "prettier --write ."
@@ -21,8 +21,6 @@
     "@types/node-sass": "^4.11.7",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.13.1",
-    "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
@@ -32,7 +30,6 @@
     "react-virtualized": "^9.22.5",
     "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
-    "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }
 }
